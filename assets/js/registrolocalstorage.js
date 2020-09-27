@@ -34,20 +34,12 @@ formularioRegistro.addEventListener('submit',(e)=>{
     guardarEnLocalStorage(usuario)
 
 
-    const mensajeNombre = document.getElementById('nombreJug').innerText = localStorage.getItem('usuarios')
- 
-
-    p = mensajeNombre.split(',')
-    x=p[0].split(':')
-    z=x[1]
-    w=z.slice(1,-1)
-    console.log (w);
     
         
     
 
 
-    //window.location.assign("./assets/pages/game.html")
+    window.location.assign("./assets/pages/game.html")
  
     }
 })
