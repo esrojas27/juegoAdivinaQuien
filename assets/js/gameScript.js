@@ -1,0 +1,1 @@
+const mensajeNombre = document.getElementById('nombreJug').innerText = localStorage.getItem('nombre')
